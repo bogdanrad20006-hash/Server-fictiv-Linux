@@ -1,1 +1,3 @@
 # Server-fictiv-Linux
+
+In acest proiect am construit un server Ubuntu pentru o firmă fictivă de la zero . Am creat un script Bash care automatizează toată operațiunea. Acesta poate crea grupuri de lucru și utilizatori cu drepturi specifice, poate stabili parole care expiră la 90 de zile și poate forța schimbarea parolelor la prima logare pentru siguranță. În plus, am construit toată structura de directoare și am reglat permisiunile (chmod/chown) astfel încât fiecare departament să poată vedea doar ceea ce îi aparține. Acest proiect a avut nevoie de aplicarea a unor setări avansate pentru a proteja datele, cum ar fi SUID și Sticky Bit. Este o soluție de administrare completă care permite transformarea unui server gol într-un mediu de lucru sigur și gata de utilizare.
